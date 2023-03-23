@@ -1,0 +1,3 @@
+DEBUG=True
+AWS_REGION=eu-west-1
+STARTUP_SIGNUP_TABLE=gsg-signup-table

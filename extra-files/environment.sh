@@ -1,0 +1,7 @@
+#!/bin/bash
+export DEBUG="True"
+export STARTUP_SIGNUP_TABLE="gsg-signup-table"
+export AWS_REGION="eu-west-1"
+export AWS_ACCESS_KEY_ID="<YOUR-ACCESS-KEY-ID>"
+export AWS_SECRET_ACCESS_KEY="<YOUR-SECRET-ACCESS-KEY>"
+printenv | grep "DEBUG\|STARTUP_SIGNUP_TABLE\|AWS_REGION\|AWS_ACCESS_KEY_ID\|AWS_SECRET_ACCESS_KEY"
