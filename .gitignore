@@ -2,6 +2,7 @@
 *.sqlite3+
 .env
 venv/*
+env.txt
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
